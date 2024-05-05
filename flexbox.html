@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="PT-PT">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevando sua criatividade</title>
+    <link rel="shortcut icon" href="imagens/Captura de ecrã 2024-04-04 135547.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="js/index.js"></script>
+</head>
+<body>
+    <script></script>
+    <header>
+        <h1>
+            <img src="./imagens/Captura de ecrã 2024-04-04 135547.png" alt="">
+        </h1>
+        
+        <nav id="nav">
+            <button id="btn-mobile">
+                <img src="imagens/toc_FILL0_wght400_GRAD0_opsz24.png" alt="icone-menu">
+            </button>
+            
+            <ul id="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">About</a></li>
+            </ul>
+        </nav>
+    </header>   
+    <script>
+            const btnMobile = document.getElementById('btn-mobile');
+        function toggleMenu() {
+        const nav = document.getElementById('nav');
+        nav.classList.toggle('active');
+        }
+
+        btnMobile.addEventListener('click', toggleMenu);
+    </script>
+
+</body>
+</html>
